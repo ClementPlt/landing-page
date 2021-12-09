@@ -1,0 +1,4 @@
+.cardgrid {
+    display: flex;
+    flex-wrap: wrap;
+}

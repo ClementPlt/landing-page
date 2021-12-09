@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;400;700&display=swap');
+@import url(components/container.css);
+@import url(components/profile-picture-round.css);
+@import url(components/btn-blue.css);
+@import url(components/banner.css);
+@import url(components/card.css);
+@import url(components/cardgrid.css);
+@import url(components/navbar.css);
+@import url(components/btn-orange.css);
+@import url(components/card-big.css);
+@import url(components/search-container.css);
+@import url(components/list-inline.css);
+@import url(components/content.css);
+
+h1 {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    margin-top: 48px;
+}
+
+
+h2 {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+}
+
+p,a {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 200;
+}
+
+body{
+    margin: 0px;
+    text-align: center;
+}

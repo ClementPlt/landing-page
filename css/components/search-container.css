@@ -1,0 +1,37 @@
+.search-container{
+    float: ;
+    padding: 16px;
+    background: rgba(243, 149, 13,1);
+    border-radius: 32px;
+    margin-left: 256px;
+    margin-right: 256px;
+    flex-grow: 1;
+    overflow: hidden;
+    text-decoration: none;
+    border: none;
+    outline: transparent;
+}
+
+.search-container input{
+    border: 1px solid rgba(243, 149, 13,1);
+    border-right: none;
+    font-family: 'Outfit', sans-serif;
+    float: left;
+    background: rgba(243, 149, 13,1);
+    border-color: rgba(243, 149, 13,1);
+    width: 350px;
+    color: white;
+}
+::placeholder {
+  color: white;
+  font-family: 'Outfit';
+}
+
+.search-container button{
+    float: right;
+    background: rgba(243, 149, 13,1);
+    border: 1px solid rgba(243, 149, 13,1);
+    border-right: none;
+    color: white;
+}
+

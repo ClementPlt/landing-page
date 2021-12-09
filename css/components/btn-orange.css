@@ -1,0 +1,15 @@
+.btn-orange {
+    text-decoration: none;
+    height: auto;
+    padding: 8px;
+    background: orange;
+    color: white;
+    border-radius: 60px;
+}
+
+.btn-orange:hover {
+    background: orange;
+    color: white;
+    transition: 0.5s;
+
+}

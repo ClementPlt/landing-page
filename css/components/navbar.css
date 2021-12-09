@@ -1,0 +1,51 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 180px;
+    flex-grow: 1;
+    background: white;
+    box-shadow: 0px 10px 30px rgba(0,0,0, 0.3);
+    position: fixed;
+        top : 0;
+        left: 0;
+        right: 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    font-weight: 400;
+    color: black;
+    border-radius: 16px;
+}
+
+.navbar a:hover {
+    border-radius: 16px;
+    color: white;
+    transition: 0.5s;
+    background: rgba(0,0,0,0.9);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+
+#logo-principal {
+    height: 30px ;
+}
+
+#btn-connect-orange{
+    background-color: rgba(243, 149, 13,0.1);
+    color: black;
+    border: 1px solid orange;
+    padding: -2px;
+    border-radius: 64px;
+}
+
+#btn-connect-orange:hover {
+    background: orange;
+    color: white;
+    transition: 0.5s;
+}
+
